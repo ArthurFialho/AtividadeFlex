@@ -1,0 +1,59 @@
+.p-1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.p-2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: #818181;
+}
+
+.p-2-bold {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #818181;
+}
+
+.p-3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.975rem;
+    color: #fff;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.titulo-2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4rem;
+}
+
+.titulo-3 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0;
+    font-size: 1.3rem;
+}
+
+.titulo-4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.2 rem;
+}
+
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+.colum{
+    display:flex;
+    flex-direction: column;
+}

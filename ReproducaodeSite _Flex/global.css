@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.bg-container {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    width: 16%;
+    top: 0;
+    position: sticky;
+}
+
+.main-container {
+    color: #fff;
+    text-align: center;
+    width: 84%;
+    background-image: url("./img/img_9.jpg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.social svg {
+    width: 33px;
+    height: 33px;
+    fill: #fff;
+    padding: 10px;
+    margin-top: 1.8rem;
+}
+
+.first {
+    margin-left: 20px;
+}
+
+.section-container {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.img-container {
+    width: 33%;
+    height: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img-container img {
+    width: 110%;
+    object-fit: cover;
+    transition: 0.7s;
+}
+
+.img-container:hover img {
+    filter: brightness(50%);
+}
+
+.img-container svg {
+    cursor: pointer;
+    fill: #fff;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.img-container:hover svg {
+    opacity: 1;
+    top: 50%;
+}
+
+.testimonial-container {
+    background-color: #000
+}
+
+.testimonial-container .titulo {
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.testimonial-carrosel {
+    position: relative;
+    padding-top: 3rem;
+}
+
+.testimonial-carrosel img {
+    margin-bottom: 1rem;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.testimonial-carrosel p {
+    margin-top: 20px;
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+.testimonial-carrosel span::before {
+    content: "<";
+    width: 55px;
+    height: 55px;
+    background-color: #242424;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 30%;
+    right: 75%;
+}
+
+.testimonial-carrosel span::after {
+    content: ">";
+    width: 55px;
+    height: 55px;
+    background-color: #242424;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 30%;
+    right: 22%;
+}
+
+.biography,
+.contato {
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    background-color: #000;
+}
+
+.biography-container,
+.contato-container {
+    padding: 100px;
+    background-color: rgb(26, 26, 26);
+    text-align: left;
+    position: relative;
+}
+
+.biography-container::before,
+.contato-container::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    top: 0;
+    left: 0;
+    background-color: rgb(226, 43, 104);
+    position: absolute;
+}
+
+.list-container {
+    margin-left: 4rem;
+    display: flex;
+}
+
+.blog {
+    background-color: #000;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 300px;
+}
+
+.blog-container img {
+    width: 300px;
+}
+
+.blog-container>h1 {
+    align-self: start;
+    margin-bottom: 3rem;
+}
+
+
+.img-container2 {
+    display: flex;
+    gap: 20px;
+}
+
+.img2 {
+    object-fit: cover;
+    height: 250px;
+    padding-bottom: 2.542rem;
+}
+
+.itens-container {
+    text-align: justify;
+}
+
+.contato-itens {
+    padding-inline: 200px;
+}
+
+.contato-itens h1 {
+    margin-bottom: 50px;
+}
+
+.copy {
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.form-flex {
+    flex-direction: row;
+    display: flex;
+    gap: 70px;
+}
+
+.form-flex input {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px #726d6d;
+    outline: none;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+
+
+button {
+    color: #fff;
+}
